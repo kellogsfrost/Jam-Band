@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import openNewAuthWindow from './openWindow'
 import axios from 'axios'
+import react-router from 'react-router'
 
 // We had to define this because TS needs to know
 // the shape of our user object
